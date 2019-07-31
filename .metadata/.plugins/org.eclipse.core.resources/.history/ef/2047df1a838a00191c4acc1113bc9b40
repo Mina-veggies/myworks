@@ -1,0 +1,12 @@
+package com.cat;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main (String[] args) {
+		String name = new java.util.Scanner(System.in).nextLine();
+		System.out.println(name);
+		Scanner.close();
+	}
+
+}
