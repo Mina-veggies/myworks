@@ -1,0 +1,107 @@
+body{
+	font-family: sans-serif;
+}
+
+header{
+	background-color: whitesmoke;
+	width: 100%;
+	height: 100px;
+}
+
+.logo{
+	font-family: "Vidaloka", serif;
+	font-size: 72px;
+	text-align: center;
+	line-height: 100px;
+	margin-bottom: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+}
+
+.menu{
+	background-color: antiquewhite;
+	height: 60px;
+}
+
+ul{
+	float: right;
+}
+
+ul li{
+	float: left;
+	font-family: "Vidaloka", serif;
+	font-size: 25px;
+	line-height: 25px;
+	list-style: none;
+	padding-right: 1em;
+}
+
+.main_container img{
+	margin-top: 7px;
+	width: 840px;
+	height: 536px;
+	margin-left: 350px;
+	border: 7px solid lightgray;
+	border-radius: 10px;
+}
+
+/*フォーム忘れるな*/
+
+h1{
+	border-bottom: 5px dotted black;
+	padding-left: 15px;
+}
+
+.formtitle{
+    border-bottom: 3px dotted black;
+	width: 40%;
+    margin-left: 15px;
+    padding-top: 5px;
+    padding-left: 7px;
+}
+
+form{
+    margin-left: 50px;
+    background-color: whitesmoke;
+    border: 3px #ebebeb solid;
+    width: 55%;
+    margin-bottom: 15px;
+	border-radius: 10px;
+}
+
+form div{
+    padding: 15px;
+}
+
+.text, textarea{
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+
+.submit{
+    border: 1px solid lightgray;
+    color: white;
+    padding: 4px 10px;
+    background-color: #bfbfbf;
+    border-bottom: 2px solid gray;
+	border-radius: 10px;
+}
+
+.left img{
+	float: right;
+	width: 400px;
+	height: 250px;
+	margin-top: -400px;
+	margin-right: 100px;
+}
+
+
+

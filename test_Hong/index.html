@@ -1,0 +1,31 @@
+<!-- アドレスはこちら　→　http://localhost/test_Hong/index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>猫についてのアンケート</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>猫アンケート</h1>
+    <form method="post" action="confirm.php">
+        <div>
+        <label>あなたの性別</label>
+        <br>
+        <input type="radio" name="sex" value="男" checked="checked">男
+        <input type="radio" name="sex" value="女">女
+        <input type="radio" name="sex" value="その他">その他
+        </div>
+        
+        <div>
+        <label>好きな猫の柄、猫の好きなところ</label>
+        <br>
+        <textarea cols="35" rows="5" name="comments"></textarea>
+        </div>
+        
+        <div>
+        <input type="submit" class="submit" value="送信">
+        </div>
+    </form>
+</body>
+</html>

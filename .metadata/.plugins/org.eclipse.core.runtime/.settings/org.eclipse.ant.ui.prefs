@@ -1,4 +1,9 @@
-useAnnotationsPrefPage=true
 eclipse.preferences.version=1
-#workspacejre=true
+org.eclipse.ant.ui.commentsColor=88,110,117
+org.eclipse.ant.ui.constantStringsColor=42,161,152
+org.eclipse.ant.ui.dtdColor=103,140,177
+org.eclipse.ant.ui.processingInstructionsColor=131,148,150
+org.eclipse.ant.ui.tagsColor=103,140,177
+org.eclipse.ant.ui.textColor=131,148,150
+useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true

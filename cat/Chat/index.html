@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="utf-8">
+<title>Chat</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+	
+<body>
+	
+	<?php
+	
+	mb_internal_encoding("utf8");
+	
+
+	?>
+	<header>
+		<div class="logo">
+			<a href="../index.html">CAT</a><br>
+		</div>
+			<div class="menu">
+				<ul>
+					<li><a href="../About/index.html">About</a></li>
+					<li>Chat</li>
+					<li><a href="../Goods/index.html">Goods</a></li>
+					<li><a href="../Contact/index.html">Contact</a></li>
+				</ul>
+			</div>
+	</header>
+	
+	<main>
+		<div class="main_container">
+			<img src="../img/cat8.jpg">
+		<div class="left">
+			<h1>猫について語り合う掲示板</h1>
+			<!-- m_dataにテーブルcatchat作成済み-->
+			<form method="post" action="insert.php">
+                    <h2 class="formtitle">入力フォーム</h2>
+                        <div>
+                            <label>ハンドルネーム</label>
+                            <br>
+                            <input type="text" class="text" size="35" name="handlename">
+                        </div>
+                        
+                        <div>
+                            <label>タイトル</label>
+                            <br>
+                            <input type="text" class="text" size="35" name="title">
+                        </div>
+                    
+                        <div>
+                            <label>コメント</label>
+                            <br>
+                            <textarea cols="60" rows="7" name="comments"></textarea>
+                        </div>
+                    
+                        <div>
+                            <input type="submit" class="submit" value="投稿する">
+                        </div>
+                </form>
+			<img src="../img/cat9.jpg">
+			
+		 <!-- <?php
+                
+            while($row = $stmt->fetch()){
+                
+               echo"<div class='box'>";
+                    echo"<h2 class=tit>".$row['title']."</h2>";
+                        echo"<p>".$row['comments']."</p>";
+                        echo"<p>posted by".$row['handlename']."</p>";
+                echo"</div>";
+                
+                    }
+                ?> -->
+		</div>
+		</div>
+	</main>
+</body>
+</html>
